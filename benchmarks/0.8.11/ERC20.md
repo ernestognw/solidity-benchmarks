@@ -26,10 +26,10 @@ How much gas to deploy the contract as is?
 <!-- Start deploy Table -->
 |       Implementation      |  --  |
 |---------------------------|------|
-|           Maple           |672309|
-|OpenZeppelin Permit (draft)|881597|
-|        OpenZeppelin       |554025|
-|          Solmate          |656844|
+|           Maple           |764894|
+|OpenZeppelin Permit (draft)|948373|
+|        OpenZeppelin       |650209|
+|          Solmate          |729680|
 <!-- End deploy Table -->
 
 ## Write methods
@@ -43,10 +43,10 @@ How much gas to transfer tokens?
 <!-- Start transferToOwner Table -->
 |       Implementation      |  -- |
 |---------------------------|-----|
-|           Maple           |20657|
-|OpenZeppelin Permit (draft)|20737|
-|        OpenZeppelin       |20781|
-|          Solmate          |20590|
+|           Maple           |20975|
+|OpenZeppelin Permit (draft)|21239|
+|        OpenZeppelin       |21195|
+|          Solmate          |20869|
 <!-- End transferToOwner Table -->
 
 #### To a wallet that owns no token
@@ -54,10 +54,10 @@ How much gas to transfer tokens?
 <!-- Start transferToNonOwner Table -->
 |       Implementation      |  -- |
 |---------------------------|-----|
-|           Maple           |37735|
-|OpenZeppelin Permit (draft)|37815|
-|        OpenZeppelin       |37859|
-|          Solmate          |37668|
+|           Maple           |38053|
+|OpenZeppelin Permit (draft)|38317|
+|        OpenZeppelin       |38273|
+|          Solmate          |37947|
 <!-- End transferToNonOwner Table -->
 
 ### transferFrom
@@ -69,10 +69,10 @@ How much gas to transfer tokens?
 <!-- Start transferFromToOwner Table -->
 |       Implementation      |  -- |
 |---------------------------|-----|
-|           Maple           |28136|
-|OpenZeppelin Permit (draft)|28233|
-|        OpenZeppelin       |28277|
-|          Solmate          |26167|
+|           Maple           |28116|
+|OpenZeppelin Permit (draft)|28457|
+|        OpenZeppelin       |28457|
+|          Solmate          |26207|
 <!-- End transferFromToOwner Table -->
 
 #### To a wallet that owns no token
@@ -80,10 +80,10 @@ How much gas to transfer tokens?
 <!-- Start transferFromToNonOwner Table -->
 |       Implementation      |  -- |
 |---------------------------|-----|
-|           Maple           |45258|
-|OpenZeppelin Permit (draft)|45355|
-|        OpenZeppelin       |45399|
-|          Solmate          |43289|
+|           Maple           |45238|
+|OpenZeppelin Permit (draft)|45579|
+|        OpenZeppelin       |45579|
+|          Solmate          |43329|
 <!-- End transferFromToNonOwner Table -->
 
 ### approve
@@ -93,10 +93,10 @@ How much gas to approve an address to spend some amount of tokens?
 <!-- Start approve Table -->
 |       Implementation      |  -- |
 |---------------------------|-----|
-|           Maple           |32598|
-|OpenZeppelin Permit (draft)|32672|
-|        OpenZeppelin       |32649|
-|          Solmate          |32547|
+|           Maple           |32772|
+|OpenZeppelin Permit (draft)|32885|
+|        OpenZeppelin       |32885|
+|          Solmate          |32720|
 <!-- End approve Table -->
 
 ## View methods
@@ -108,10 +108,10 @@ How much gas to check the total supply of tokens?
 <!-- Start totalSupply Table -->
 |       Implementation      | -- |
 |---------------------------|----|
-|           Maple           |7579|
-|OpenZeppelin Permit (draft)|7565|
-|        OpenZeppelin       |7542|
-|          Solmate          |7556|
+|           Maple           |7548|
+|OpenZeppelin Permit (draft)|7548|
+|        OpenZeppelin       |7548|
+|          Solmate          |7548|
 <!-- End totalSupply Table -->
 
 ### balanceOf
@@ -121,10 +121,10 @@ How much gas to check the balance of a wallet?
 <!-- Start balanceOf Table -->
 |       Implementation      | -- |
 |---------------------------|----|
-|           Maple           |7692|
-|OpenZeppelin Permit (draft)|7713|
-|        OpenZeppelin       |7690|
-|          Solmate          |7692|
+|           Maple           |7849|
+|OpenZeppelin Permit (draft)|7830|
+|        OpenZeppelin       |7808|
+|          Solmate          |7805|
 <!-- End balanceOf Table -->
 
 ### allowance
@@ -134,8 +134,8 @@ How much gas to check gow much a wallet can spend on behalf of another wallet?
 <!-- Start allowance Table -->
 |       Implementation      | -- |
 |---------------------------|----|
-|           Maple           |7927|
-|OpenZeppelin Permit (draft)|7972|
-|        OpenZeppelin       |7994|
-|          Solmate          |7927|
+|           Maple           |8145|
+|OpenZeppelin Permit (draft)|8123|
+|        OpenZeppelin       |8057|
+|          Solmate          |8079|
 <!-- End allowance Table -->
